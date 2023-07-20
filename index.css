@@ -1,11 +1,17 @@
+
+*{
+    box-sizing: border-box;
+}
+
 .nav-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: bisque;
     border-radius: 20px;
-    width: 1440px;
-    margin: 0px auto;
+    width: 1400px;
+    margin: 0 auto;
+    width: 100%;
 }
 .logo-container{
     display: flex;
@@ -45,3 +51,108 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+/* tiger navbar */
+
+
+.nav-container-11 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.logo{
+    display: flex;
+
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 10px;
+    
+}
+
+.logo p {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 70px;
+    margin-left: 10px;
+    color: orangered;
+}
+
+.nav-bar-container-11{
+    font-size: 30px;
+    font-weight: 500;
+    margin-right: 30px;
+    
+}
+
+.nav-bar-container-11 a{
+    text-decoration: none;
+    padding: 20px;
+}
+
+#button-1 {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+}
+
+.login{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* practice navbar */
+
+/* nav{
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.nav-practice{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-practice-1{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.nav-practice-1 img {
+    width: 80px;
+    height: 40px;
+}
+
+.nav-practice-1 p{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.nav-practice-2{
+    font-size: 30px;
+    
+}
+
+.nav-practice-2 a{
+    text-decoration: none;
+    padding: 10px;
+    
+}
+ */

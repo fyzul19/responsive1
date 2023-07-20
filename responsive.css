@@ -1,0 +1,16 @@
+/* for mobile devices */
+
+@media screen and (max-width:570px) {
+
+    .nav-container{
+        flex-direction: column;
+
+    }
+    .logo-container p{
+        flex-direction: column;
+    }
+
+    .nav-bar-container  {
+        flex-direction: column;
+    }
+}
