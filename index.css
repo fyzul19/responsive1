@@ -1,0 +1,47 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+    border-radius: 20px;
+    width: 1440px;
+    margin: 0px auto;
+}
+.logo-container{
+    display: flex;
+}
+.logo-container  img{
+    width: 100px;
+    object-fit: cover;
+}
+.logo-container p{
+    font-weight: 600;
+    font-size: 50px;
+    margin-left: 5px;
+    
+}
+.hive{
+    color: rgb(192, 18, 192);
+}
+.nav-bar-container{
+    font-size: 30px;
+    margin-right: 30px;
+    
+}
+.nav-bar-container a{
+    text-decoration: none;
+    font-weight: 200;
+    padding: 20px;
+}
+
+#button {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+}
+
+.login{
+    font-size: 20px;
+    font-weight: 600;
+}
